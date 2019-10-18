@@ -2,12 +2,18 @@
 
 namespace myConsoleAppSourceCode
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Hello World:)");
             Console.WriteLine("Current date time :"+DateTime.Now);
+        }
+
+        public int Add(int a, int b)
+        {
+
+            return a + b;
         }
     }
 }
